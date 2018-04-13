@@ -29,4 +29,3 @@ Run docker hello-world to verify installation of docker and sudo-stuff
 docker run hello-world
 ```
 
-
