@@ -21,5 +21,25 @@ sudo apt-get install maven -y
 mvn -v
 
 
+#https://github.com/rbenv/ruby-build#readme
+ruby-build --definitions
+ruby-build 2.4.0 ~/local/ruby-2.4.0 
+
+# add ruby,rake a.o. to PATH
+export PATH=$PATH:~/local/ruby-2.4.0/bin
+ruby -v
+
+
+#https://github.com/rbenv/ruby-build/wiki#suggested-build-environment
+
+gem install travis -v 1.8.8 --no-rdoc --no-ri
+
+travis -v
+
+
+travis login --pro 
+
+
+travis encrypt "travis-repo:travis-token" --add notifications.slack -r accountName/repoName
 
 
