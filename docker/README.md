@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt install docker.io -y
 ```
 
-# https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user 
+- https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user 
 
 Create the docker group.
 ```
